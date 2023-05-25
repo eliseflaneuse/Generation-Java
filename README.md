@@ -64,3 +64,12 @@ O exercício 2 é um algoritmo em Java que solicita ao usuário o nome do colabo
 - Cálculo do reajuste percentual multiplicando o `percentualReajuste` pelo `salario` e dividindo por 100.
 - Cálculo do `novoSalario` somando o `salario` ao `reajuste`.
 
+#### Exercício 4 - Laço Condicional Switch 
+
+O exercício 3 é uma calculadora simples que lê dois números float, um código de operação matemática e realiza a operação selecionada, exibindo o resultado na tela.
+Os principais pontos de aprendizado:
+
+- Declaração e utilização de variáveis para armazenar os números, o código de operação e o resultado.
+- Utilização do laço condicional `switch` para selecionar a operação a ser realizada com base no código de operação fornecido.
+- Realização das operações matemáticas dentro dos casos do `switch`.
+- Verificação especial para o caso de divisão por zero, exibindo uma mensagem adequada.
