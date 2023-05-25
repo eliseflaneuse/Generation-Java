@@ -14,8 +14,8 @@ public class LacoCondicionalIf_exe3 {
 		boolean primeiraDoacao;
 		
 		// Idades mínima e máxima - para fácil modificação caso as regras para doação mudem
-		int idadeMin = 60;
-		int idadeMax = 69;
+		final int IdadeMin = 60;
+		final int IdadeMax = 69;
 		
 		System.out.println("Digite seus dados a seguir para verificar se esta apto para doar sangue: ");
 		System.out.println("Digite o Nome do doador: ");
@@ -39,15 +39,15 @@ public class LacoCondicionalIf_exe3 {
 		
 		if(idade < 18) {
 			System.out.println(nome + " não está apte para doar sangue!");
-		}else if(idade > 18 && idade < idadeMin) {
+		}else if(idade > 18 && idade < IdadeMin) {
 			System.out.println(nome + " está apte para doar sangue!");
-		}else if(idade >= idadeMin && idade <= idadeMax) {
+		}else if(idade >= IdadeMin && idade <= IdadeMax) {
 			if(primeiraDoacao == true) {
 				System.out.println(nome + " não está apte para doar sangue!");
 			}else if(primeiraDoacao == false) {
 				System.out.println(nome + " está apte para doar sangue!");
 			}
-		}else if(idade > idadeMax) {
+		}else if(idade > IdadeMax) {
 			System.out.println("Checar com o médico se a doação é possível.");
 		}else {
 			System.out.println("Algum erro ocorreu, favor tentar novamente.");
