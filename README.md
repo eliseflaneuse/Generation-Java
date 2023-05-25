@@ -45,8 +45,8 @@ O exercício 4 é um exemplo de programa em Java que solicita ao usuário que fa
 - Utilização de constantes de string para representar as opções disponíveis para escolha.
 - Utilização de operadores de comparação, como `equalsIgnoreCase()`, para comparar strings independentemente de letras maiúsculas ou minúsculas.
 
---
-### Laços Condiionais Switch 
+
+### Laços Condicionais Switch 
 
 #### Exercício 1 - Laço Condicional Switch 
 
