@@ -9,7 +9,7 @@ public class LacoRepeticaoWhile_exe2 {
 		Scanner leia = new Scanner(System.in);
 
         int idade, sexo, categoria;
-        int backend = 0; // frontend = 0, mobile= 0, fullstack = 0; 
+        int backend = 0; 
         int frontendMulheres = 0, mobileHomensAcima40 = 0, fullstackMulheresAbaixo30 = 0;
         String iniciar = "s";
 
@@ -35,26 +35,23 @@ public class LacoRepeticaoWhile_exe2 {
                     backend++;
                     break;
                 case 2:
-                	frontend++;
                     if (sexo == 2) {
                         frontendMulheres++;
                     }
                     break;
                 case 3:
-                	mobile++;
                     if (sexo == 1 && idade > 40) {
                         mobileHomensAcima40++;
                     }
                     break;
                 case 4:
-                	fullstack++;
                     if (sexo == 2 && idade < 30) {
                         fullstackMulheresAbaixo30++;
                     }
                     break;
             }
 
-            System.out.println("Deseja continuar a leitura dos dados de um novo colaborador? (S/N)");
+            System.out.println("Deseja continuar a leitura dos dados de um novx colaboradore? (s/n)");
             iniciar = leia.next();
         }
  
