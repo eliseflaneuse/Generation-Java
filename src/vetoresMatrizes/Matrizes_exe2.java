@@ -15,26 +15,26 @@ public class Matrizes_exe2 {
 		
 		// Ler as notas
 		for (i = 0; i < matrizNotas.length; i++) {
-            for (int j = 0; j < matrizNotas[i].length; j++) {
-                System.out.println("Digite a nota para a alune " + (i + 1) + " no " + (j + 1) + "º bimestre: ");
-                matrizNotas[i][j] = leia.nextDouble();
-            }
-        }
-		
-		// Somar as linhas e calcular a média 
+			for (int j = 0; j < matrizNotas[i].length; j++) {
+				System.out.println("Digite a nota para a alune " + (i + 1) + " no " + (j + 1) + "º bimestre: ");
+				matrizNotas[i][j] = leia.nextDouble();
+			}
+		}
+
+		// Somar as linhas e calcular a média
 		for (i = 0; i < matrizNotas.length; i++) {
-            for (int j = 0; j < matrizNotas[i].length; j++) {
-            	soma += matrizNotas[i][j];
-            }
-            mediaFinal[i] = soma / 4;
-        }
-		
-		// Imprimir o 
-        System.out.println("\nVetor das médias dos participantes: \n");
- 
-        for (i = 0; i < matrizNotas.length; i++) {
-            System.out.println("Participante " + (i + 1) + ": " + mediaFinal[i]);
-        }
+			for (int j = 0; j < matrizNotas[i].length; j++) {
+				soma += matrizNotas[i][j];
+			}
+			mediaFinal[i] = soma / 4;
+		}
+
+		// Imprimir o
+		System.out.println("\nVetor das médias dos participantes: \n");
+
+		for (i = 0; i < matrizNotas.length; i++) {
+			System.out.println("Participante " + (i + 1) + ": " + mediaFinal[i]);
+		}
 
         
         
