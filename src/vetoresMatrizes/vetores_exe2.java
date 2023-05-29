@@ -2,7 +2,7 @@ package vetoresMatrizes;
 
 import java.util.Scanner;
 
-public class vetores_exe2 {
+public class Vetores_exe2 {
 
 	public static void main(String[] args) {
 		
