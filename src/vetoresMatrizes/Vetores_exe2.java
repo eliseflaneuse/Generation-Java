@@ -27,7 +27,7 @@ public class Vetores_exe2 {
 		// Imprimir os elementos do vetor que são números pares:
 		System.out.println("\nElementos pares: ");
 		
-			for(int i = 1; i < vetor.length; i++) {
+			for(int i = 0; i < vetor.length; i++) {
 				if(vetor[i]%2==0) {
 					System.out.println(vetor[i]);
 				}
@@ -36,14 +36,14 @@ public class Vetores_exe2 {
 		//Imprimir a soma de todos os elementos do vetor:
 		System.out.println("\nSoma dos elementos do vetor: ");
 		
-			for(int i = 1; i < vetor.length; i++) {
-				soma += vetor[i];
+			for(int i = 0; i < vetor.length; i++) {
+				soma += vetor[i]; 
 			}
 		System.out.println(soma);
 		
 		//Imprimir a média de todos os elementos do vetor:
 		System.out.println("\nMédia dos elementos do vetor: ");
-			for(int i = 1; i < vetor.length; i++) {
+			for(int i = 0; i < vetor.length; i++) {
 					media = soma / vetor.length;
 				}
 		System.out.println(media);
