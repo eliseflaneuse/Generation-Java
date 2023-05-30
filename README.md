@@ -95,3 +95,22 @@ O exercício 3 é uma calculadora simples que lê dois números float, um códig
 | Utilização do laço condicional `switch` para selecionar a operação a ser realizada com base no código de operação fornecido.|
 | Realização das operações matemáticas dentro dos casos do `switch`.|
 | Verificação especial para o caso de divisão por zero, exibindo uma mensagem adequada.|
+
+
+<h2 align="center">
+ Laços de Repetição em Java
+</h2>
+    
+#### Exercício 1 - Laço de Repetição For 
+
+ O exercício em Java recebe dois números do usuário e verifica se existem números dentro do intervalo entre esses dois números que são múltiplos de 3 e 5. O programa utiliza a estrutura condicional `if-else if-else` e um laço de repetição `for`. Ele também utiliza a classe `Scanner` para ler a entrada do usuário e exibe mensagens no console.
+
+Pontos de Aprendizado:
+
+| Sintaxe                                   | Descrição                                                         |
+|-------------------------------------------|-------------------------------------------------------------------|
+| `Scanner leia = new Scanner(System.in)`   | Cria uma instância da classe `Scanner` para ler a entrada do usuário a partir do console.|
+| `num1 = leia.nextInt()`                   | Lê um número inteiro da entrada do usuário e armazena na variável `num1`.|
+| `for(int i = num1; i < num2; i++)`         | Define um laço de repetição `for` que inicia a variável `i` com o valor de `num1`, itera enquanto `i` for menor que `num2` e incrementa `i` em cada iteração.|
+| `if(i%3 == 0 && i%5 == 0)`                 | Verifica se `i` é um múltiplo de 3 e 5 utilizando o operador `%` para obter o resto da divisão por 3 e 5, e o operador lógico `&&` para verificar se ambas as condições são verdadeiras.|
+| `System.out.println(...)`                  | Exibe uma mensagem no console.                                     |
