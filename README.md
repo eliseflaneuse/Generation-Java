@@ -22,7 +22,9 @@ Além dessas convenções, aqui estão algumas boas práticas gerais ao nomear v
 - Mantenha uma consistência ao nomear variáveis dentro do seu código, seguindo as mesmas convenções e padrões em todos os lugares.
 
 
-### Laços Condicionais em Java
+<h2 align="center">
+ Laços Condicionais em Java
+</h2>
 ### Laços Condicionais If
 
 #### Exercício 1 - Laço Condicional If
@@ -63,27 +65,32 @@ O exercício 4 é um exemplo de programa em Java que solicita ao usuário que fa
 | Utilização de constantes de string para representar as opções disponíveis para escolha.  |
 |Utilização de operadores de comparação, como `equalsIgnoreCase()`, para comparar strings independentemente de letras maiúsculas ou minúsculas.|
 
+<h2 align="center">
+ Laços Condicionais Switch 
+</h2>
 
-### Laços Condicionais Switch 
 #### Exercício 1 - Laço Condicional Switch 
-O exercício 1 apresenta um exemplo de uso do laço condicional switch em Java. O programa exibe uma lista de produtos com seus respectivos códigos e preços. Solicita ao usuário que digite o código do produto desejado e a quantidade comprada. Solicita ao usuário que digite o código do produto desejado e a quantidade comprada. Solicita ao usuário que digite o código do produto desejado e a quantidade comprada.Os principais pontos de aprendizado são:
+O exercício 1 apresenta um exemplo de uso do laço condicional switch em Java. O programa exibe uma lista de produtos com seus respectivos códigos e preços. Solicita ao usuário que digite o código do produto desejado e a quantidade comprada. Solicita ao usuário que digite o código do produto desejado e a quantidade comprada. Solicita ao usuário que digite o código do produto desejado e a quantidade comprada.
 
-- Uso d laço condicional `switch` para seleção de caminhos com base em valores.
-- Manipulação de variáveis e exibição de resultados na saída padrão.
+| Pontos de Aprendizado                                                            |
+|----------------------------------------------------------------------------------|
+| Uso do laço condicional `switch` para seleção de caminhos com base em valores.   |
+
 
 #### Exercício 2 - Laço Condicional Switch
-O exercício 2 é um algoritmo em Java que solicita ao usuário o nome do colaborador, o código do cargo e o salário. Em seguida, utilizando um laço condicional `switch`, determina o nome do cargo e o percentual de reajuste com base no código informado. O programa calcula o novo salário, adicionando o valor do reajuste ao salário atual, e exibe o nome do colaborador, o cargo e o novo salário na tela. Principais pontos de aprendizado:
+O exercício 2 é um algoritmo em Java que solicita ao usuário o nome do colaborador, o código do cargo e o salário. Em seguida, utilizando um laço condicional `switch`, determina o nome do cargo e o percentual de reajuste com base no código informado. O programa calcula o novo salário, adicionando o valor do reajuste ao salário atual, e exibe o nome do colaborador, o cargo e o novo salário na tela. 
 
-- Utilização do laço condicional `switch` para selecionar diferentes ações com base no valor da variável `codigoCargo`.
-- Atribuição de valores às variáveis `cargo` e `percentualReajuste` dentro dos casos do `switch` de acordo com o código do cargo.
-- Cálculo do reajuste percentual multiplicando o `percentualReajuste` pelo `salario` e dividindo por 100.
-- Cálculo do `novoSalario` somando o `salario` ao `reajuste`.
+
+| Pontos de Aprendizado                                                            |
+|----------------------------------------------------------------------------------|
+| Utilização do laço condicional `switch` para selecionar diferentes ações com base no valor da variável `codigoCargo`.  |
+
 
 #### Exercício 3 - Laço Condicional Switch 
 O exercício 3 é uma calculadora simples que lê dois números float, um código de operação matemática e realiza a operação selecionada, exibindo o resultado na tela.
-Os principais pontos de aprendizado:
 
-- Declaração e utilização de variáveis para armazenar os números, o código de operação e o resultado.
-- Utilização do laço condicional `switch` para selecionar a operação a ser realizada com base no código de operação fornecido.
-- Realização das operações matemáticas dentro dos casos do `switch`.
-- Verificação especial para o caso de divisão por zero, exibindo uma mensagem adequada.
+| Pontos de Aprendizado                                                            |
+|----------------------------------------------------------------------------------|
+| Utilização do laço condicional `switch` para selecionar a operação a ser realizada com base no código de operação fornecido.|
+| Realização das operações matemáticas dentro dos casos do `switch`.|
+| Verificação especial para o caso de divisão por zero, exibindo uma mensagem adequada.|
