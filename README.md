@@ -114,3 +114,21 @@ Pontos de Aprendizado:
 | `for(int i = num1; i < num2; i++)`         | Define um laço de repetição `for` que inicia a variável `i` com o valor de `num1`, itera enquanto `i` for menor que `num2` e incrementa `i` em cada iteração.|
 | `if(i%3 == 0 && i%5 == 0)`                 | Verifica se `i` é um múltiplo de 3 e 5 utilizando o operador `%` para obter o resto da divisão por 3 e 5, e o operador lógico `&&` para verificar se ambas as condições são verdadeiras.|
 | `System.out.println(...)`                  | Exibe uma mensagem no console.                                     |
+
+#### Exercício 2 - Laço de Repetição For 
+
+O exercício em Java solicita ao usuário a entrada de 10 números e conta quantos desses números são pares e quantos são ímpares. O programa utiliza um laço de repetição `for`, a classe `Scanner` para ler a entrada do usuário e exibe mensagens no console.
+
+Pontos de Aprendizado:
+
+| Sintaxe                                        | Descrição                                                         |
+|------------------------------------------------|-------------------------------------------------------------------|
+| `Scanner leia = new Scanner(System.in)`        | Cria uma instância da classe `Scanner` para ler a entrada do usuário a partir do console.|
+| `for (i = 0; i<10; i++)`                        | Define um laço de repetição `for` que inicia a variável `i` com o valor 0, itera enquanto `i` for menor que 10 e incrementa `i` em cada iteração.|
+| `System.out.println("Digite o " + (i +1) + "º número: ")` | Exibe uma mensagem no console solicitando a entrada de um número. O `(i + 1)` é usado para exibir corretamente a posição do número (1º, 2º, etc.). |
+| `num = leia.nextInt()`                          | Lê um número inteiro da entrada do usuário e armazena na variável `num`.|
+| `if(num % 2 == 0)`                              | Verifica se `num` é par, utilizando o operador `%` para obter o resto da divisão por 2. Se o resto for igual a 0, o número é par.|
+| `par++`                                         | Incrementa a variável `par` em 1, que conta a quantidade de números pares.|
+| `impar++`                                       | Incrementa a variável `impar` em 1, que conta a quantidade de números ímpares.|
+| `System.out.println("\nTotal de números pares: " + par)` | Exibe a quantidade total de números pares no console.|
+| `System.out.println("Total de números ímpares: " + impar)` | Exibe a quantidade total de números ímpares no console. |
