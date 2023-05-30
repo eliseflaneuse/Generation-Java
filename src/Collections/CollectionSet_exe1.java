@@ -33,6 +33,15 @@ public class CollectionSet_exe1 {
 				}
 			}
 		}
+		
+		/* A interface java.util.Iterator é usada no Java para percorrer coleções de elementos de forma ordenada 
+		 * e sem expor sua estrutura interna. Ela fornece métodos como:
+		 *  hasNext() para verificar se há mais elementos, 
+		 *  next() para obter o próximo elemento e 
+		 *  remove() opcionalmente para remover o elemento atual da coleção. 
+		 *  É obtida a partir de coleções que a suportam, como ArrayList ou HashSet, 
+		 *  e é usada em um laço while para percorrer os elementos um a um. 
+		 */
 
 		Iterator<Integer> isetNumeros = setNumeros.iterator();
 
@@ -42,3 +51,5 @@ public class CollectionSet_exe1 {
 		}
 	}
 }
+
+
