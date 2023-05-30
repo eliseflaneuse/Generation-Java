@@ -25,6 +25,7 @@ Além dessas convenções, aqui estão algumas boas práticas gerais ao nomear v
 <h2 align="center">
  Laços Condicionais em Java
 </h2>
+
 ### Laços Condicionais If
 
 #### Exercício 1 - Laço Condicional If
@@ -65,9 +66,9 @@ O exercício 4 é um exemplo de programa em Java que solicita ao usuário que fa
 | Utilização de constantes de string para representar as opções disponíveis para escolha.  |
 |Utilização de operadores de comparação, como `equalsIgnoreCase()`, para comparar strings independentemente de letras maiúsculas ou minúsculas.|
 
-<h2 align="center">
- Laços Condicionais Switch 
-</h2>
+
+### Laços Condicionais Switch 
+
 
 #### Exercício 1 - Laço Condicional Switch 
 O exercício 1 apresenta um exemplo de uso do laço condicional switch em Java. O programa exibe uma lista de produtos com seus respectivos códigos e preços. Solicita ao usuário que digite o código do produto desejado e a quantidade comprada. Solicita ao usuário que digite o código do produto desejado e a quantidade comprada. Solicita ao usuário que digite o código do produto desejado e a quantidade comprada.
