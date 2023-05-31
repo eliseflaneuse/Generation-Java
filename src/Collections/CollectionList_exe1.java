@@ -8,7 +8,7 @@ public class CollectionList_exe1 {
 
 	public static void main(String[] args) {
 		
-		ArrayList<String> cores = new ArrayList<String>();
+		ArrayList<String> cores = new ArrayList<String>(); //Precisa declarar String duas vezes?
 		
 		Scanner leia = new Scanner(System.in);
 		
@@ -19,18 +19,19 @@ public class CollectionList_exe1 {
             cores.add(cor);
         }
 		
-        // Imprimir as cores
+        // Imprimir as cores com o loop for each
         System.out.println("\nLista de todas as cores:");
-        for (String cor : cores) {
+        for (String cor : cores) {  
         	System.out.println(cor);
         }
         
         // Ordenar e imprimir as cores
-        Collections.sort(cores);
+        Collections.sort(cores); 
         System.out.println("\nLista das cores ordenadas:");
         for (String cor : cores) {
         	System.out.println(cor);
         }
+        
 	}
 
 }
