@@ -53,7 +53,7 @@ public class ListStack_exe1 {
 				} else {
 					System.out.println("\nPilha: ");
 					String livro = pilha.pop();
-					System.out.println("\no" + livro + " foi retirado da pilha!");
+					System.out.println("\n" + livro + " foi retirado da pilha!");
 				}
 				break;
 			case 0:
