@@ -8,7 +8,7 @@ public class TestaCliente {
 		
 		Cliente cliente1 = new Cliente("James Tiberius Kirk", 30, "Federation Starfleet", "Captain", "Commanding officer,\r\n"
 				+ "USS Enterprise-A");
-        Cliente cliente2 = new Cliente("S'chn T'gai Spock", 25, "Federation Starfleet", "Commander", "\r\n"
+        Cliente cliente2 = new Cliente("S'chn T'gai Spock", 250 , "Federation Starfleet", "Commander", "\r\n"
         		+ "Executive officer/Science officer,\r\n"
         		+ "USS Enterprise-A");
 

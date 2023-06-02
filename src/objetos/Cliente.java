@@ -1,69 +1,70 @@
 package objetos;
 
 public class Cliente {
+	
 	// Atributos da Classe Cliente - Os Atributos são responsáveis por identificar
-		// as características do Objeto.
-		private String nome;
-		private int idade;
-		private String affiliation;
-		private String rank;
-		private String occupation;
+	// as características do Objeto.
+	private String nome;
+	private int idade;
+	private String affiliation;
+	private String rank;
+	private String occupation;
 
-		// Método Construtor da Classe Conta - com todos os parâmetro
-		public Cliente(String nome, int idade, String affiliation, String rank, String occupation) {
-			this.nome = nome;
-			this.idade = idade;
-			this.affiliation = affiliation;
-			this.rank = rank;
-			this.occupation = occupation;
-		}
-		
-		// Métodos Get e Set da Classe Conta
-		public String getNome() {
-	        return nome;
-	    }
+	// Método Construtor da Classe Conta - com todos os parâmetro
+	public Cliente(String nome, int idade, String affiliation, String rank, String occupation) {
+		this.nome = nome;
+		this.idade = idade;
+		this.affiliation = affiliation;
+		this.rank = rank;
+		this.occupation = occupation;
+	}
 
-	    public void setNome(String nome) {
-	        this.nome = nome;
-	    }
+	// Métodos Get e Set da Classe Conta
+	public String getNome() {
+		return nome;
+	}
 
-	    public int getIdade() {
-	        return idade;
-	    }
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
 
-	    public void setIdade(int idade) {
-	        this.idade = idade;
-	    }
+	public int getIdade() {
+		return idade;
+	}
 
-	    public String getEndereco() {
-	        return affiliation;
-	    }
+	public void setIdade(int idade) {
+		this.idade = idade;
+	}
 
-	    public void setEndereco(String affiliation) {
-	        this.affiliation = affiliation;
-	    }
+	public String getEndereco() {
+		return affiliation;
+	}
 
-	    public String getTelefone() {
-	        return rank;
-	    }
+	public void setEndereco(String affiliation) {
+		this.affiliation = affiliation;
+	}
 
-	    public void setTelefone(String rank) {
-	        this.rank = rank;
-	    }
+	public String getTelefone() {
+		return rank;
+	}
 
-	    public String getEmail() {
-	        return occupation;
-	    }
+	public void setTelefone(String rank) {
+		this.rank = rank;
+	}
 
-	    public void setEmail(String occupation) {
-	        this.occupation = occupation;
-	    }
+	public String getEmail() {
+		return occupation;
+	}
 
-	    public void visualizar() {
-	        System.out.println("Nome: " + nome);
-	        System.out.println("Idade: " + idade);
-	        System.out.println("Affiliation: " + affiliation);
-	        System.out.println("Rank: " + rank);
-	        System.out.println("Occupation: " + occupation);
-	    }
+	public void setEmail(String occupation) {
+		this.occupation = occupation;
+	}
+
+	public void visualizar() {
+		System.out.println("Nome: " + nome);
+		System.out.println("Idade: " + idade);
+		System.out.println("Affiliation: " + affiliation);
+		System.out.println("Rank: " + rank);
+		System.out.println("Occupation: " + occupation);
+	}
 }
