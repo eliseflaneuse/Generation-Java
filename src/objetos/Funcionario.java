@@ -82,12 +82,12 @@ public class Funcionario {
 	    }
 
 	    public void visualizar() {
-	        System.out.println("Position: " + position);
-	        System.out.println("Name: " + name);
-	        System.out.println("Species: " + species);
-	        System.out.println("Affiliation: " + affiliation);
-	        System.out.println("Rank: " + rank);
-	        System.out.println("Occupation: " + occupation);
-	        System.out.println("Serial number: " + serialNumber);
+	        System.out.println("Position: " + this.position);
+	        System.out.println("Name: " + this.name);
+	        System.out.println("Species: " + this.species);
+	        System.out.println("Affiliation: " + this.affiliation);
+	        System.out.println("Rank: " + this.rank);
+	        System.out.println("Occupation: " + this.occupation);
+	        System.out.println("Serial number: " + this.serialNumber);
 	    }
 }

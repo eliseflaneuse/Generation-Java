@@ -1,6 +1,6 @@
 package objetos;
 
-import objeto.Funcionario;
+import objetos.Funcionario;
 
 public class TestaFuncionario {
 

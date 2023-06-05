@@ -61,10 +61,10 @@ public class Cliente {
 	}
 
 	public void visualizar() {
-		System.out.println("Nome: " + nome);
-		System.out.println("Idade: " + idade);
-		System.out.println("Affiliation: " + affiliation);
-		System.out.println("Rank: " + rank);
-		System.out.println("Occupation: " + occupation);
+		System.out.println("Nome: " + this.nome);
+		System.out.println("Idade: " + this.idade);
+		System.out.println("Affiliation: " + this.affiliation);
+		System.out.println("Rank: " + this.rank);
+		System.out.println("Occupation: " + this.occupation);
 	}
 }
